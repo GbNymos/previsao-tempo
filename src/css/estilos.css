@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap');
+
+
+body{
+    background-color:#023373;
+    font-family:"red Hat Display",sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.conteiner{
+    background-color:#0a1435;
+    color:black;
+    max-width: 350px;
+    text-align: center;
+    background-image: url("../imagem/background.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: rgb(0,0 ,0,0.1) 0 10px 10px;
+}
+
+.busca{
+   
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.busca input{
+    background-color:#0a1435;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.busca .btn-busca{
+    background-color: #0a1435;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: 0.8;
+}
+
+
+.busca .lupa{
+    width: 50px;
+    padding: 6px;
+    opacity: 0.9;
+    
+}
+.condicao{
+    color: black;
+}
+
+.principal{
+    margin: 30px;
+    font-size: 16px;
+}
+
+.principal .temperatura{
+    font-size: 68px;
+    margin: 20px 0;
+}
+
+.principal .condicao{
+    font-size: 20px;
+}
+
+.secundaria{
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #eeeeee;
+    padding: 20px 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+
+}
+
+.secundaria .humidade, 
+.secundaria .veloz-vento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
